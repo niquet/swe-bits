@@ -12,11 +12,110 @@ The selection of resources summarized is opinionated. The structure of this repo
 
 ### Code reviews
 
-- <a name="1">Test</a>
+- [[1](#eng-guidebook)]
 
 ### Coding & code quality
 
 - 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
 
 ### Debugging
 
@@ -24,4 +123,4 @@ The selection of resources summarized is opinionated. The structure of this repo
 
 ## Credits
 
-[<span name="1">1</span>]
+<a name="eng-guidebook"></a>[1]
