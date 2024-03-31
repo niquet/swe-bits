@@ -1,12 +1,12 @@
-## Software Engineering Bits - about this collection
+## Habits - about this collection
 
-A collection of software engineering learnings from various resources, such as those listed in the [charlax/professional-programming](https://github.com/charlax/professional-programming) repo.
+A collection of software engineering habits A collection of software engineering lessons learned, broken down into habits worth picking up from various resources, such as those listed in the [charlax/professional-programming](https://github.com/charlax/professional-programming) repo.
 
 ## Principles
 
-The goal of this page is to collect and centralize the best bits from the various resources. This page is not meant to be comprehensive, but rather my personal guide. I try to keep it light and avoid excessive detail.
+The goal of this page is to collect and centralize the best lessons and habits from the various resources. This page is not meant to be comprehensive, but rather my personal guide that I can revisit over time. I try to keep it light and avoid excessive detail.
 
-The selection of resources summarized is opinionated. The structure of this repo is based on the order within the amazing repo by charlax.
+The selection of resources is opinionated. The structure of this repo is based on the order within the amazing repo by charlax.
 
 ## Topics
 
@@ -77,7 +77,16 @@ Readable code
 - Continuously refactor to maintain readability - Readable codebases stay readable as they grow thanks to continuous refactoring.
 
 Writing quality code
-- 
+- **Use the right amount of abstractions**
+- Write code that (is readable and) uses the right amount of abstractions and works reliably enough, accounting for potential error cases
+- E.g. classes abstract away implementation details from other parts of the code
+- Information hiding reduces complexity in two ways, (1) it simplifies the interface to a module (or class) and hides away the details which reduces the cognitive load on developers who use it, (2) information hiding makes it easier to evolve the system as there are no dependencies on that information outside of the module containing the information
+- You don't want to break a system into too many small pieces as that adds unnecessary cognitive load
+- **Handle errors, and handle them well**
+- Have a consistent error-handling strategy – What do you do when you come across a condition which could be an error? DO you throw an error, log the error, do both, or something else?
+- You should be able to explain how you handle errors (ideally consistently with how everyone on the team does)
+- You should aim to have a strategy for error logging
+- When in doubt use defensive programming – assume inputs from other parts of the code are unreliable and potentially malicious
 
 ### Debugging
 
