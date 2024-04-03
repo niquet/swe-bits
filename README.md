@@ -253,7 +253,25 @@ Ways to iterate quickly
 - A few things you can do:
   - Ask someone (an experienced engineer) to walk you through the structure/parts of the codebase, which parts do what, and what to take note of
   - Draw out classes/modules, and how they connect (create a diagram by hand or a sketching tool) and write down your interpretation of their roles, and what they connect to
-  - Share your code map with teammates ... TBC
+  - Share your code map with teammates and ask for feeedback; frequently, it will be you and others that may learn new things about the codebase; others may find pointers to things the code should improve on, or relationships they didn't realize existed
+  - Create a cheatsheet – take notes on where to find key parts in the code, and frequently used modules or classes; could be as simple as a text file or doc; record the "a-ha!" moments of clarity
+- **Know how to debug the CI/CD**
+  - Issues such as unexpectedly failing tests on the CI/CD tend to be rare but can be challenging to pinpoint
+  - Understand how CI/CD works at your company or on your team
+  - Which scripts run and in what order?
+  - How can you inspect the setup?
+  - Ask longer-tenured or more experienced engineers (or the dedicated CI/CD team if present) for pinpointers on this system
+  - How do you access CI/CD logs?
+- **Know how to access production logs and dashboards**
+- Debugging production issues is challenging without access to details about what might have happened
+- Figure out the options for accessing:
+  - Production logs, dashboards and metrics
+  - How to filter those logs to certain users
+  - How to query various relevant data sources for debugging
+  - How to access crash dumps, errors, and exceptions for specific users
+  - Processes to follow when debugging production logs (e.g. if you access personal information when debugging production data, there may be a data protection process to follow)
+  - If you have a productivity cheat sheet, add details to it for quick reference later
+- **Make small code changes when possible** – 
 
 ## Credits
 
